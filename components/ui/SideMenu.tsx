@@ -5,7 +5,7 @@ import { Drawer, Input, List, ListItem, Box, ListItemIcon, InputAdornment, IconB
 export const SideMenu = () => {
   return (
     <Drawer
-      open={true}
+      open={false}
       anchor="right"
       sx={{ backdropFilter: 'blur(3px)', transition: 'all 0.3s ease-in-out' }}
     >
