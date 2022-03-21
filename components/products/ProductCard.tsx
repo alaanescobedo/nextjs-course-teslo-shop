@@ -10,7 +10,7 @@ interface Props {
 
 export const ProductCard: FC<Props> = ({ product }) => {
   return (
-    <Grid item xs={6} sm={4} key={product.slug} >
+    <Grid item xs={6} sm={4}>
       <Card >
         <CardActionArea>
           <CardMedia
